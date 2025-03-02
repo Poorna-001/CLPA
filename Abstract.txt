@@ -1,0 +1,14 @@
+Cloud-Based Personalized Learning Assistant (CPLA):
+
+		The Cloud-Based Personalized Learning Assistant (CPLA) is an intelligent online learning platform that provides personalized study recommendations based on a user's interests, skill level, and progress. It uses cloud computing and artificial intelligence (AI) to improve the learning experience.
+
+We built the system using:
+
+	* Frontend: React.js (to create the user interface).
+	* Backend: Node.js + Express.js (to handle requests and process data).
+	* Cloud Services:
+		- Azure AI Services (to provide personalized course recommendations).
+		- Azure Blob Storage (to store and retrieve learning materials).
+		- Azure Cosmos DB (to save user progress and history).
+
+This project makes learning easier, more efficient, and accessible from anywhere. In the future, it can be improved with voice-based learning, quizzes, and gamification to make studying more engaging.

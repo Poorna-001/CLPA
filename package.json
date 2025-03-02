@@ -1,0 +1,11 @@
+{
+  "name": "cpla-project",
+  "version": "1.0.0",
+  "description": "Cloud-Based Personalized Learning Assistant",
+  "private": true,
+  "scripts": {
+    "start": "npm run start --prefix frontend && npm run start --prefix backend",
+    "install": "npm install --prefix frontend && npm install --prefix backend"
+  },
+  "dependencies": {}
+}
