@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalized Learning Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cloud-Based Personalized Learning Assistant</h1>
+      <form id="learningForm">
+        <label for="interest">Enter Your Learning Interest:</label>
+        <input
+          type="text"
+          id="interest"
+          placeholder="e.g., Web Development"
+          required
+        />
+
+        <label for="level">Skill Level:</label>
+        <select id="level">
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+        </select>
+
+        <button type="submit">Get Learning Path</button>
+      </form>
+
+      <div id="output">
+        <h2>AI-Generated Learning Path:</h2>
+        <p id="response"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
